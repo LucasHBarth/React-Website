@@ -7,12 +7,12 @@ import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, 
            <>
              <Nav>
                  <NavbarContainer>
-                     <NavLogo to='/'>dolla</NavLogo>  /* LOGO */
+                     <NavLogo to='/'>dolla</NavLogo>
                      <MobileIcon onClick={toggle}>
                          <FaBars/>
                      </MobileIcon>
                      <NavMenu>
-                     <NavItem> /* MENU MODO WEB */
+                     <NavItem> 
                             <NavLinks to='about'>About</NavLinks>
                         </NavItem>
                         <NavItem>

@@ -3,7 +3,7 @@ import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, Sidebar
 
 const Sidebar = ( {isOpen, toggle}) => {
     return (
-        <SidebarContainer isOpen={isOpen} onClick={toggle}> /* MENU MODO PHONE */
+        <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
@@ -22,12 +22,11 @@ const Sidebar = ( {isOpen, toggle}) => {
                     Sign Up
                 </SidebarLink>
                 </SidebarMenu> 
-                <SideBtnWrap>
-                    <SidebarRoute to="/signin" >Sign In</SidebarRoute>
-                </SideBtnWrap>
-            </SidebarWrapper>
-        </SidebarContainer>
+            <SideBtnWrap>
+                <SidebarRoute to="/signin" >Sign In</SidebarRoute>
+            </SideBtnWrap>
+        </SidebarWrapper>
+     </SidebarContainer>
     );
 };
-
 export default Sidebar;
