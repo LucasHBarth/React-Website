@@ -67,7 +67,7 @@ cursor: pointer;
 export const SideBtnWrap = styled.div`
     display: flex;
     justify-content: center;
-`
+`;
 
 export const SidebarRoute = styled(LinkR)`
     border-radius: 50px;
